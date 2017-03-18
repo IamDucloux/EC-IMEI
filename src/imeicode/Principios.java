@@ -19,6 +19,8 @@ public class Principios {
     }
     public void setPrincipio(long nuevoprincipio)
     {
+        //Este esta mal
         35199107412 = nuevoPrincipio;
+        
     }
 }
