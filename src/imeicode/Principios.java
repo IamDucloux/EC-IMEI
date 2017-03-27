@@ -12,14 +12,19 @@ package imeicode;
 public class Principios {
     //Clase en donde se pondran los digitos del codigo SIN los ultimos 4 digitos 
     //351991074125472--->35199107412
-    private long principio;
+    private String principio;
     
-    public Principios(long nuevoPrincipio){
+    public Principios(String nuevoPrincipio){
         principio = nuevoPrincipio;
     }
-    public void setPrincipio(long nuevoprincipio)
+
+    Principios() {
+        
+    }
+    public void setPrincipio(String nuevoprincipio)
     {
-        //Este esta mal
+        //Este ya esta bien!!!
+        //Encuentra el error
      principio=nuevoprincipio;
             
         
